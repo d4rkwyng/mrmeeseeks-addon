@@ -147,94 +147,6 @@ F 3 "" H 2800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D9
-U 1 1 5AFFA356
-P 2800 3450
-F 0 "D9" H 2800 3550 50  0000 C CNN
-F 1 "LED" H 2800 3350 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3450 50  0001 C CNN
-F 3 "" H 2800 3450 50  0001 C CNN
-	1    2800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D10
-U 1 1 5AFFA3BE
-P 2800 3550
-F 0 "D10" H 2800 3650 50  0000 C CNN
-F 1 "LED" H 2800 3450 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3550 50  0001 C CNN
-F 3 "" H 2800 3550 50  0001 C CNN
-	1    2800 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D11
-U 1 1 5AFFA408
-P 2800 3650
-F 0 "D11" H 2800 3750 50  0000 C CNN
-F 1 "LED" H 2800 3550 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3650 50  0001 C CNN
-F 3 "" H 2800 3650 50  0001 C CNN
-	1    2800 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D12
-U 1 1 5AFFA44F
-P 2800 3750
-F 0 "D12" H 2800 3850 50  0000 C CNN
-F 1 "LED" H 2800 3650 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3750 50  0001 C CNN
-F 3 "" H 2800 3750 50  0001 C CNN
-	1    2800 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D13
-U 1 1 5AFFA489
-P 2800 3850
-F 0 "D13" H 2800 3950 50  0000 C CNN
-F 1 "LED" H 2800 3750 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3850 50  0001 C CNN
-F 3 "" H 2800 3850 50  0001 C CNN
-	1    2800 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D14
-U 1 1 5AFFA4CE
-P 2800 3950
-F 0 "D14" H 2800 4050 50  0000 C CNN
-F 1 "LED" H 2800 3850 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 3950 50  0001 C CNN
-F 3 "" H 2800 3950 50  0001 C CNN
-	1    2800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D15
-U 1 1 5AFFA514
-P 2800 4050
-F 0 "D15" H 2800 4150 50  0000 C CNN
-F 1 "LED" H 2800 3950 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 4050 50  0001 C CNN
-F 3 "" H 2800 4050 50  0001 C CNN
-	1    2800 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D16
-U 1 1 5AFFA55B
-P 2800 4150
-F 0 "D16" H 2800 4250 50  0000 C CNN
-F 1 "LED" H 2800 4050 50  0000 C CNN
-F 2 "LEDs:LED_1206_HandSoldering" H 2800 4150 50  0001 C CNN
-F 3 "" H 2800 4150 50  0001 C CNN
-	1    2800 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R1
 U 1 1 5AFFA605
 P 3250 2550
@@ -323,94 +235,6 @@ F 3 "" H 3250 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
-U 1 1 5AFFAA61
-P 3250 3450
-F 0 "R9" V 3330 3450 50  0000 C CNN
-F 1 "220" V 3250 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3450 50  0001 C CNN
-F 3 "" H 3250 3450 50  0001 C CNN
-	1    3250 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L R R10
-U 1 1 5AFFAAE5
-P 3250 3550
-F 0 "R10" V 3330 3550 50  0000 C CNN
-F 1 "220" V 3250 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3550 50  0001 C CNN
-F 3 "" H 3250 3550 50  0001 C CNN
-	1    3250 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R11
-U 1 1 5AFFAB65
-P 3250 3650
-F 0 "R11" V 3330 3650 50  0000 C CNN
-F 1 "220" V 3250 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3650 50  0001 C CNN
-F 3 "" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R12
-U 1 1 5AFFABE9
-P 3250 3750
-F 0 "R12" V 3330 3750 50  0000 C CNN
-F 1 "220" V 3250 3750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3750 50  0001 C CNN
-F 3 "" H 3250 3750 50  0001 C CNN
-	1    3250 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L R R13
-U 1 1 5AFFAC71
-P 3250 3850
-F 0 "R13" V 3330 3850 50  0000 C CNN
-F 1 "220" V 3250 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3850 50  0001 C CNN
-F 3 "" H 3250 3850 50  0001 C CNN
-	1    3250 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L R R14
-U 1 1 5AFFACDE
-P 3250 3950
-F 0 "R14" V 3330 3950 50  0000 C CNN
-F 1 "220" V 3250 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3950 50  0001 C CNN
-F 3 "" H 3250 3950 50  0001 C CNN
-	1    3250 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L R R15
-U 1 1 5AFFAD4E
-P 3250 4050
-F 0 "R15" V 3330 4050 50  0000 C CNN
-F 1 "220" V 3250 4050 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 4050 50  0001 C CNN
-F 3 "" H 3250 4050 50  0001 C CNN
-	1    3250 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R16
-U 1 1 5AFFADF7
-P 3250 4150
-F 0 "R16" V 3330 4150 50  0000 C CNN
-F 1 "220" V 3250 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 4150 50  0001 C CNN
-F 3 "" H 3250 4150 50  0001 C CNN
-	1    3250 4150
-	0    1    1    0   
-$EndComp
-$Comp
 L +3.3V #PWR01
 U 1 1 5AFFAE8D
 P 4050 2350
@@ -443,119 +267,6 @@ F 3 "" H 5400 3200 50  0001 C CNN
 	1    5400 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 2550 3400 2550
-Wire Wire Line
-	3100 2550 2950 2550
-Wire Wire Line
-	3550 2650 3400 2650
-Wire Wire Line
-	2950 2650 3100 2650
-Wire Wire Line
-	3400 2750 3550 2750
-Wire Wire Line
-	3400 2850 3550 2850
-Wire Wire Line
-	3400 2950 3550 2950
-Wire Wire Line
-	3400 3050 3550 3050
-Wire Wire Line
-	3400 3150 3550 3150
-Wire Wire Line
-	3400 3250 3550 3250
-Wire Wire Line
-	3400 3450 3550 3450
-Wire Wire Line
-	3400 3550 3550 3550
-Wire Wire Line
-	3400 3650 3550 3650
-Wire Wire Line
-	3400 3750 3550 3750
-Wire Wire Line
-	3400 3850 3550 3850
-Wire Wire Line
-	3400 3950 3550 3950
-Wire Wire Line
-	3400 4050 3550 4050
-Wire Wire Line
-	3400 4150 3550 4150
-Wire Wire Line
-	2950 4150 3100 4150
-Wire Wire Line
-	2950 4050 3100 4050
-Wire Wire Line
-	2950 3950 3100 3950
-Wire Wire Line
-	2950 3850 3100 3850
-Wire Wire Line
-	2950 3750 3100 3750
-Wire Wire Line
-	3100 3650 2950 3650
-Wire Wire Line
-	2950 3550 3100 3550
-Wire Wire Line
-	3100 3450 2950 3450
-Wire Wire Line
-	2950 3250 3100 3250
-Wire Wire Line
-	2950 3150 3100 3150
-Wire Wire Line
-	2950 3050 3100 3050
-Wire Wire Line
-	2950 2950 3100 2950
-Wire Wire Line
-	2950 2850 3100 2850
-Wire Wire Line
-	2950 2750 3100 2750
-Wire Wire Line
-	2350 2550 2350 4400
-Wire Wire Line
-	2650 4150 2350 4150
-Connection ~ 2350 4150
-Wire Wire Line
-	2650 4050 2350 4050
-Connection ~ 2350 4050
-Wire Wire Line
-	2650 3950 2350 3950
-Connection ~ 2350 3950
-Wire Wire Line
-	2650 3850 2350 3850
-Connection ~ 2350 3850
-Wire Wire Line
-	2650 3750 2350 3750
-Connection ~ 2350 3750
-Wire Wire Line
-	2650 3650 2350 3650
-Connection ~ 2350 3650
-Wire Wire Line
-	2650 3550 2350 3550
-Connection ~ 2350 3550
-Wire Wire Line
-	2650 3450 2350 3450
-Connection ~ 2350 3450
-Wire Wire Line
-	2650 3250 2350 3250
-Connection ~ 2350 3250
-Wire Wire Line
-	2650 3150 2350 3150
-Connection ~ 2350 3150
-Wire Wire Line
-	2650 3050 2350 3050
-Connection ~ 2350 3050
-Wire Wire Line
-	2650 2950 2350 2950
-Connection ~ 2350 2950
-Wire Wire Line
-	2650 2850 2350 2850
-Connection ~ 2350 2850
-Wire Wire Line
-	2650 2750 2350 2750
-Connection ~ 2350 2750
-Wire Wire Line
-	2650 2650 2350 2650
-Connection ~ 2350 2650
-Wire Wire Line
-	2650 2550 2350 2550
 $Comp
 L C C1
 U 1 1 5B0C9ACD
@@ -578,8 +289,6 @@ F 3 "" H 5400 3500 50  0001 C CNN
 	1    5400 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4600 2550 4550 2550
 Text GLabel 4550 3650 2    60   Input ~ 0
 scl
 Text GLabel 4550 3750 2    60   Input ~ 0
@@ -606,16 +315,6 @@ F 3 "" H 4700 4450 50  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 3950 4700 3950
-Wire Wire Line
-	4700 3950 4700 4450
-Wire Wire Line
-	4550 4050 4700 4050
-Connection ~ 4700 4050
-Wire Wire Line
-	4550 4150 4700 4150
-Connection ~ 4700 4150
 $Comp
 L GND #PWR07
 U 1 1 5B0CFD9F
@@ -627,4 +326,153 @@ F 3 "" H 2350 4400 50  0001 C CNN
 	1    2350 4400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Badgelife_shitty_connector X1
+U 1 1 5B0E1521
+P 5000 5700
+F 0 "X1" H 5100 5500 60  0000 C CNN
+F 1 "Badgelife_shitty_connector" H 5000 6100 60  0000 C CNN
+F 2 "mrmeeseeks-addon:Badgelife-Shitty-2x2" H 5000 5700 60  0001 C CNN
+F 3 "" H 5000 5700 60  0001 C CNN
+	1    5000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 5B0E1CC8
+P 4650 5600
+F 0 "#PWR08" H 4650 5450 50  0001 C CNN
+F 1 "+3.3V" H 4650 5740 50  0000 C CNN
+F 2 "" H 4650 5600 50  0001 C CNN
+F 3 "" H 4650 5600 50  0001 C CNN
+	1    4650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5B0E1D45
+P 4650 5800
+F 0 "#PWR09" H 4650 5550 50  0001 C CNN
+F 1 "GND" H 4650 5650 50  0000 C CNN
+F 2 "" H 4650 5800 50  0001 C CNN
+F 3 "" H 4650 5800 50  0001 C CNN
+	1    4650 5800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 5800 2    60   Input ~ 0
+scl
+Text GLabel 5550 5600 2    60   Input ~ 0
+sda
+$Comp
+L R R9
+U 1 1 5AFFAA61
+P 3250 3450
+F 0 "R9" V 3330 3450 50  0000 C CNN
+F 1 "220" V 3250 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 3450 50  0001 C CNN
+F 3 "" H 3250 3450 50  0001 C CNN
+	1    3250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D9
+U 1 1 5AFFA356
+P 2800 3450
+F 0 "D9" H 2800 3550 50  0000 C CNN
+F 1 "LED" H 2800 3350 50  0000 C CNN
+F 2 "LEDs:LED_1206_HandSoldering" H 2800 3450 50  0001 C CNN
+F 3 "" H 2800 3450 50  0001 C CNN
+	1    2800 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2550 3400 2550
+Wire Wire Line
+	3100 2550 2950 2550
+Wire Wire Line
+	3550 2650 3400 2650
+Wire Wire Line
+	2950 2650 3100 2650
+Wire Wire Line
+	3400 2750 3550 2750
+Wire Wire Line
+	3400 2850 3550 2850
+Wire Wire Line
+	3400 2950 3550 2950
+Wire Wire Line
+	3400 3050 3550 3050
+Wire Wire Line
+	3400 3150 3550 3150
+Wire Wire Line
+	3400 3250 3550 3250
+Wire Wire Line
+	3400 3550 3550 3550
+Wire Wire Line
+	3400 3650 3550 3650
+Wire Wire Line
+	3400 3750 3550 3750
+Wire Wire Line
+	3400 3850 3550 3850
+Wire Wire Line
+	3400 3950 3550 3950
+Wire Wire Line
+	3400 4050 3550 4050
+Wire Wire Line
+	3400 4150 3550 4150
+Wire Wire Line
+	2950 3250 3100 3250
+Wire Wire Line
+	2950 3150 3100 3150
+Wire Wire Line
+	2950 3050 3100 3050
+Wire Wire Line
+	2950 2950 3100 2950
+Wire Wire Line
+	2950 2850 3100 2850
+Wire Wire Line
+	2950 2750 3100 2750
+Connection ~ 2350 3450
+Wire Wire Line
+	2650 3250 2350 3250
+Connection ~ 2350 3250
+Wire Wire Line
+	2650 3150 2350 3150
+Connection ~ 2350 3150
+Wire Wire Line
+	2650 3050 2350 3050
+Connection ~ 2350 3050
+Wire Wire Line
+	2650 2950 2350 2950
+Connection ~ 2350 2950
+Wire Wire Line
+	2650 2850 2350 2850
+Connection ~ 2350 2850
+Wire Wire Line
+	2650 2750 2350 2750
+Connection ~ 2350 2750
+Wire Wire Line
+	2650 2650 2350 2650
+Connection ~ 2350 2650
+Wire Wire Line
+	2650 2550 2350 2550
+Wire Wire Line
+	4600 2550 4550 2550
+Wire Wire Line
+	4550 3950 4700 3950
+Wire Wire Line
+	4700 3950 4700 4450
+Wire Wire Line
+	4550 4050 4700 4050
+Connection ~ 4700 4050
+Wire Wire Line
+	4550 4150 4700 4150
+Connection ~ 4700 4150
+Wire Wire Line
+	3400 3450 3550 3450
+Wire Wire Line
+	3100 3450 2950 3450
+Wire Wire Line
+	2650 3450 2350 3450
+Wire Wire Line
+	2350 2550 2350 4400
 $EndSCHEMATC
