@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 74.194599 65.253799 123.976201 127.837001)
     (thickness 1.6)
-    (drawings 259)
+    (drawings 260)
     (tracks 173)
     (zones 0)
     (modules 23)
@@ -1489,6 +1489,9 @@
       (net 31 "Net-(U1-Pad28)"))
   )
 
+  (gr_text "Look at me!" (at 88.12276 109.07776) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_text "Mr Meeseeks\nRev. D" (at 99.441 126.365) (layer B.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
   )
