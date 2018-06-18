@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name MCP23017-ESO)(type Legacy)(uri "$(KIPRJMOD)/lib/MCP23017-ESO.mod")(options "")(descr ""))
+  (lib (name MCP23017-ESS)(type Legacy)(uri "$(KIPRJMOD)/lib/MCP23017-ESS.mod")(options "")(descr ""))
+)
