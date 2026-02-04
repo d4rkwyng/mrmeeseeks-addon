@@ -1,0 +1,11 @@
+# KiCad backup files
+*.bak
+*-bak
+*.kicad_pcb-bak
+
+# macOS system files
+.DS_Store
+._*
+
+# Photoshop temp files
+~*
