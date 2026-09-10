@@ -32,8 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:badgelife_shitty_connector
-LIBS:INTERFACE-MCP23017-E_SOIC28_
-LIBS:mrmeeseeksRevE-cache
+LIBS:mrmeeseeks_RevE-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
