@@ -11,7 +11,7 @@ NetIExt=net
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=mrmeeseeksRevE.net
+LastNetListRead=mrmeeseeks_RevE.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524

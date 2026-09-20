@@ -2,4 +2,7 @@
   (lib (name MCP23017-ESO)(type Legacy)(uri "$(KIPRJMOD)/lib/MCP23017-ESO.mod")(options "")(descr ""))
   (lib (name MCP23017-ESS)(type Legacy)(uri "$(KIPRJMOD)/lib/MCP23017-ESS.mod")(options "")(descr ""))
   (lib (name mrmeeseeks-design)(type KiCad)(uri "$(KIPRJMOD)/design")(options "")(descr ""))
+  (lib (name mrmeeseeks-addon-design)(type KiCad)(uri "$(KIPRJMOD)/design")(options "")(descr ""))
+  (lib (name mrmeeseeks-addon)(type KiCad)(uri "$(KIPRJMOD)/lib")(options "")(descr ""))
+  (lib (name mrmeeseeks-lib)(type KiCad)(uri "$(KIPRJMOD)/lib")(options "")(descr ""))
 )
