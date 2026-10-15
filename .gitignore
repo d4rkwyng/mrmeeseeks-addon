@@ -9,3 +9,7 @@
 
 # Photoshop temp files
 ~*
+
+# KiCad per-user local settings and caches
+*.kicad_prl
+fp-info-cache
