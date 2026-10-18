@@ -22,6 +22,13 @@ Rev E (see `mrmeeseeks_RevE_BOM.csv`). Rev A–D boards carry a ninth LED/resist
 | C1 | 0.1uF | 1206 | 1 |
 | X1 | Shitty connector | 2x2 | 1 |
 
+## Hardware Notes (Rev E)
+
+- **I2C address `0x20`** — MCP23017 A0/A1/A2 are all tied to GND (`0100 A2 A1 A0`). Bus runs at the badge's 3.3 V.
+- **LEDs on GPB0–GPB7** (D1–D8 via R1–R8 to GND), active high: set IODIRB = `0x00`, then write GPIOB/OLATB. Port A (GPA0–GPA7), INTA and INTB are unconnected; RESET is tied to 3.3 V.
+- **Connector** follows the original 2x2 badgelife add-on layout (front view: VCC/SDA top row, GND/SCL bottom row). The footprint numbers its pads 1=VCC, 2=GND, 3=SCL, 4=SDA; only the physical positions matter for this 2x2 standard.
+- `mrmeeseeks_RevE.net` is a stale 2018 netlist that still lists the Rev D D9/R9 pair — do not re-import it into the Rev E boards.
+
 ## Revisions
 
 - **Rev E** — Final revision, two board variants sharing `mrmeeseeks_RevE.sch`:
