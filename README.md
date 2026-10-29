@@ -28,6 +28,8 @@ Rev E (see `mrmeeseeks_RevE_BOM.csv`). Rev A–D boards carry a ninth LED/resist
 - **LEDs on GPB0–GPB7** (D1–D8 via R1–R8 to GND), active high: set IODIRB = `0x00`, then write GPIOB/OLATB. Port A (GPA0–GPA7), INTA and INTB are unconnected; RESET is tied to 3.3 V.
 - **Connector** follows the original 2x2 badgelife add-on layout (front view: VCC/SDA top row, GND/SCL bottom row). The footprint numbers its pads 1=VCC, 2=GND, 3=SCL, 4=SDA; only the physical positions matter for this 2x2 standard.
 - `mrmeeseeks_RevE.net` is a stale 2018 netlist that still lists the Rev D D9/R9 pair — do not re-import it into the Rev E boards.
+- On Rev A–D, D9/R9 is driven from GPA0 (pin 21). Both Rev E boards still carry that net name (`Net-(R9-Pad1)`) on U1 pin 21, but nothing else is on the net and it has no copper, so the pin is unconnected.
+- `mrmeeseeks_RevE_BOM.csv` lists the SOIC board (`mrmeeseeks_RevE.kicad_pcb`). For the SSOP board, U1 is `MCP23017-ESS_NoSilk` instead; every other line is the same.
 
 ## Revisions
 

@@ -4,5 +4,8 @@
 3;"X1";"Badgelife-Shitty-2x2";1;"Badgelife_shitty_connector";;;
 4;"R6,R1,R2,R3,R4,R5,R7,R8";"R_1206_HandSoldering_NoSilk";8;"220";;;
 5;"D1,D2,D3,D4,D5,D6,D7,D8";"LED_1206_HandSoldering_MinSilk";8;"LED";;;
-6;"U1";"SOIC28-1.27-17.9X7.5MM";1;"MCP23017";;;
+6;"U1";"MCP23017-ESO_NoSilk";1;"MCP23017";;;
 7;"C1";"C_1206_HandSoldering";1;"0.1uf";;;
+8;"G***";"smwyg";1;"LOGO";;;
+9;"G***";"d4rkwyng";1;"LOGO";;;
+10;"G***";"d4rkwyng_solder";1;"LOGO";;;
