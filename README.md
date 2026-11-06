@@ -31,6 +31,14 @@ Rev E (see `mrmeeseeks_RevE_BOM.csv`). Rev A–D boards carry a ninth LED/resist
 - On Rev A–D, D9/R9 is driven from GPA0 (pin 21). Both Rev E boards still carry that net name (`Net-(R9-Pad1)`) on U1 pin 21, but nothing else is on the net and it has no copper, so the pin is unconnected.
 - `mrmeeseeks_RevE_BOM.csv` lists the SOIC board (`mrmeeseeks_RevE.kicad_pcb`). For the SSOP board, U1 is `MCP23017-ESS_NoSilk` instead; every other line is the same.
 
+## Fabrication Outputs
+
+All gerbers were plotted with KiCad 4.0.7 in 2018.
+
+- `gerbers/mrmeeseeks_RevE-*` (SOIC board; `mrmeeseeks_RevE.zip` holds the same files) were plotted 2018-06-13, before commit `aacb9ba` (2018-06-18) moved U1's `MCP23017` value text from B.SilkS to B.Fab. The only difference from the current board is that text: it is still in `mrmeeseeks_RevE-B.SilkS.gbo`, drawn in 0.05 mm strokes inside U1's outline. Copper, mask, paste, edge cuts and drill match the current board.
+- `gerbers/mrmeeseeks_RevE_ESO-*` (SSOP board) were plotted from the board as committed in `7509748`. There is no zip for this set.
+- Both Rev E boards use a 0.2 mm pad-to-mask clearance. On the SSOP board this makes each U1 mask opening 0.83 mm wide at a 0.65 mm pin pitch, so there is no solder-mask web between U1 pins. On the SOIC board the web is about 0.11 mm.
+
 ## Revisions
 
 - **Rev E** — Final revision, two board variants sharing `mrmeeseeks_RevE.sch`:
